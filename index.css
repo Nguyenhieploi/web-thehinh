@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header-top{
+    background:#000000;
+    color: white;
+    height: 40px;
+}
+.header-top .container{
+    max-width: 1170px;
+    width: 100%;
+}
+.header-top i{
+    color:#fd3c3d;
+}
+.header-top span{
+    color: #d3d3d3;
+    font-size: 13px;
+}
+.header-top .time-clock{
+    margin-top:5px;
+}
+.header-top .contact{
+    display: flex;
+    margin-top: 5px;
+    justify-content: end;
+}
+.header-top .contact .mail-contact{
+    margin-left:35px;
+}
+.header-main{
+    background:#fd3c3d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu .menu-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.menu .menu-main li{
+    list-style: none;
+    padding: 5px 17px;
+    font-size: 12px;
+    
+}
+.menu .menu-main li a{
+   text-decoration: none;
+   color:#ffff;
+   font-weight: 700;
+}
+.slider-banner .carousel-indicators{
+    top:80%;
+}
+.slider-banner .carousel-caption{
+    position:absolute;
+    top:240px;
+}
+.slider-banner .carousel-caption h1{
+    font-size:5rem;
+}
+.slider-banner .carousel-caption p{
+    margin-top: 20px;
+    font-size:1.1rem;
+    padding:0px 240px;
+    line-height: 2rem;
+    letter-spacing:0.5px;
+    margin-bottom:30px;
+   
+}
+.slider-banner .carousel-caption h3{
+    font-size: 2rem;
+    margin-bottom:80px;
+}
+.slider-banner .carousel-caption a{
+    border:2px solid #ffff;
+    text-decoration:none;
+    color:#fff;
+    padding:20px 70px;
+}
