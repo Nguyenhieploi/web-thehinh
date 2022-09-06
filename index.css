@@ -59,10 +59,10 @@ body{
 }
 .slider-banner .carousel-caption{
     position:absolute;
-    top:240px;
+    top: 140px;
 }
 .slider-banner .carousel-caption h1{
-    font-size:5rem;
+    font-size:4.7rem;
 }
 .slider-banner .carousel-caption p{
     margin-top: 20px;
@@ -75,11 +75,168 @@ body{
 }
 .slider-banner .carousel-caption h3{
     font-size: 2rem;
-    margin-bottom:80px;
+    margin-bottom:50px;
 }
 .slider-banner .carousel-caption a{
     border:2px solid #ffff;
     text-decoration:none;
     color:#fff;
     padding:20px 70px;
+    transition: all .3s;
+}
+.slider-banner .carousel-caption a:hover{
+    background-color: #fd3c3d;
+}
+.slider-menu{
+    background-color: #181a1f;
+   
+}
+.img-box{
+    width: 100%;
+}
+.img-box img{
+    width: 100%;
+}
+.text-box{
+    background-color: #fd3c3d;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    color: #fff;
+}
+.text-box h3{
+    font-weight: 700;
+}
+.slider-menu{
+    position: relative;
+}
+.slider-menu #myCarousel{
+    top:-120px;
+}
+
+/* ABOUT */
+.about{
+    background: #181a1f;
+    padding-bottom: 100px;
+}
+.about-heading h1{
+    color:#fd3c3d;
+    font-size: 3.75rem;
+    text-align: center;
+    position: relative;
+}
+.about-heading h1::before{
+    content: "";
+    position: absolute;
+    max-width: 40px;
+    width: 100%;
+    display: block;
+    height: 3px;
+    background: #8d8d8d;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 115%;
+}
+.about-main{
+    margin-top: 60px;
+}
+.about-main-text p{
+    width: 100%;
+    font-size: 16px;
+    color: #a9a9a9;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.7;
+}
+.policy{
+    margin-top: 40px;
+}
+.policy-text span{
+    color: #fd3c3d;
+    font-weight: 700;
+}
+.policy-text p{
+    color: #a9a9a9;
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.policy-1{
+    display: flex;
+}
+.policy-1 img{
+    padding: 40px 15px;
+}
+
+.img-about{
+    position: absolute;
+    right: -180px;
+}
+.img-about img{
+   max-width: 100%;
+}
+
+/* classroom */
+.classroom{
+    background-image: url(./IMG/service-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.class-heading h1{
+    color:#fd3c3d;
+    font-size: 3.75rem;
+    text-align: center;
+    position: relative;
+   padding-top: 100px;
+}
+.class-heading h1::before{
+    content: "";
+    position: absolute;
+    max-width: 40px;
+    width: 100%;
+    display: block;
+    height: 3px;
+    background: #8d8d8d;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 115%;
+}
+.classroom .card{
+    transition: all .3s;
+}
+.classroom .card:hover{
+    box-shadow: 8px 8px 0 -4px rgb(253 60 61);
+}
+.card-body{
+    background: #181a1f;
+    text-align: center;
+}
+.card-title{
+    color: #fd3c3d;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.card-text{
+    color: #ffff;
+    margin: 12px 0px;
+}
+.content-class{
+    border-top: 1px solid #303136;
+    border-bottom: 1px solid #303136;
+    padding: 15px 0px;
+}
+.content-class i{
+    color: #fd3c3d;
+}
+.content-class span{
+    color:#cccccc;
+    font-size:0.9rem;
+}
+.card-body p{
+    color: #ffff;
+    padding: 0px 1px;
 }
